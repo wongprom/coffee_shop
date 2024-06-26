@@ -33,4 +33,19 @@ main .hot .hot-image {
   background-size: cover;
   height: 100vh;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .hot .hot-image .text-box {
+  display: flex;
+  border: 1px solid red;
+  flex-direction: column;
+  color: #fff;
+  width: 75%;
+}
+
+.drink_price {
+  display: flex;
 }
