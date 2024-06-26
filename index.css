@@ -1,3 +1,8 @@
+/* 
+font-family: "Poiret One", sans-serif;
+font-family: "Spirax", sans-serif;
+*/
+
 body {
   margin: 0;
 }
@@ -11,6 +16,7 @@ body {
 nav {
   background-color: aqua;
   width: 100%;
+  font-family: 'Spirax', sans-serif;
 }
 
 nav ul {
