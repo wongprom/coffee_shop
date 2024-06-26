@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
 nav {
   background-color: aqua;
   width: 100%;
@@ -15,4 +21,16 @@ nav ul {
   margin: 0 auto;
   padding: 20px 0;
   max-width: 500px;
+}
+main .hot {
+  height: 100vh;
+}
+
+main .hot .hot-image {
+  background-image: url(assets/hot.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
 }
