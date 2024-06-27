@@ -15,6 +15,13 @@ main {
   gap: 0.2rem;
 }
 
+h2 {
+  font-family: 'Spirax', sans-serif;
+  font-size: 4rem;
+  color: rgb(138, 0, 0);
+  margin: 0;
+}
+
 .sticky-navbar {
   position: fixed;
   top: 0;
@@ -73,12 +80,13 @@ main .section .section-image .text-box {
 }
 main .section .section-image .text-box .sub-text-1 {
   align-self: flex-start;
-  background-color: red;
+  background-color: rgba(138, 0, 0, 0.8);
   padding: 0 10px;
 }
 main .section .section-image .text-box .sub-text-2 {
   align-self: flex-end;
-  background-color: red;
+  background-color: rgba(138, 0, 0, 0.8);
+
   padding: 0 10px;
 }
 
