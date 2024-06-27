@@ -85,23 +85,22 @@ main .section .section-image .text-box {
   max-width: 600px;
   gap: 1rem;
 }
-main .section .section-image .text-box .sub-text-1 {
-  align-self: flex-start;
+
+main .section .section-image .text-box .sub {
+  display: flex;
+  justify-content: center;
   background-color: rgba(138, 0, 0, 0.8);
   padding: 0 10px;
-  display: flex;
   width: 100%;
   max-width: 400px;
-  justify-content: center;
 }
-main .section .section-image .text-box .sub-text-2 {
+
+main .section .section-image .text-box .text-1 {
+  align-self: flex-start;
+}
+
+main .section .section-image .text-box .text-2 {
   align-self: flex-end;
-  background-color: rgba(138, 0, 0, 0.8);
-  padding: 0 10px;
-  display: flex;
-  width: 100%;
-  max-width: 400px;
-  justify-content: center;
 }
 
 .sub-text-3 {
@@ -115,6 +114,7 @@ main .section .section-image .text-box .sub-text-2 {
 .sub-text-3 div:first-of-type {
   margin-top: 1rem;
 }
+
 .sub-text-3 div:last-of-type {
   margin-bottom: 1rem;
 }
