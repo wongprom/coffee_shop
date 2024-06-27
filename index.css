@@ -46,12 +46,39 @@ main .hot .hot-image {
 
 main .hot .hot-image .text-box {
   display: flex;
-  border: 1px solid red;
   flex-direction: column;
+  align-items: center;
   color: #fff;
-  width: 75%;
+  flex: 1;
+  max-width: 600px;
+  gap: 1rem;
+}
+main .hot .hot-image .text-box .sub-text-1 {
+  align-self: flex-start;
+  background-color: red;
+  padding: 0 10px;
+}
+main .hot .hot-image .text-box .sub-text-2 {
+  align-self: flex-end;
+  background-color: red;
+  padding: 0 10px;
+}
+
+.drinks_prices_wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 0.7;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
 }
 
 .drink_price {
   display: flex;
+  justify-content: space-between;
+  /* flex: auto; */
+}
+.drink_price > p {
+  margin: 0;
 }
