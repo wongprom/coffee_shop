@@ -33,7 +33,6 @@ main .section {
 }
 
 main .section .section-image {
-  background-image: url(assets/hot.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,6 +41,14 @@ main .section .section-image {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main .section .hot-image {
+  background-image: url(assets/hot.jpg);
+}
+
+main .section .juicy-image {
+  background-image: url(assets/juicy.jpg);
 }
 
 main .section .section-image .text-box {
