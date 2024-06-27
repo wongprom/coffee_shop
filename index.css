@@ -93,12 +93,21 @@ main .section .section-image .text-box .sub-text-1 {
   align-self: flex-start;
   background-color: rgba(138, 0, 0, 0.8);
   padding: 0 10px;
+  display: flex;
+  /* flex: 1; */
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
 }
 main .section .section-image .text-box .sub-text-2 {
   align-self: flex-end;
   background-color: rgba(138, 0, 0, 0.8);
-
   padding: 0 10px;
+  display: flex;
+  /* flex: 1; */
+  width: 100%;
+  max-width: 400px;
+  justify-content: center;
 }
 
 .sub-text-3 {
