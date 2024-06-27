@@ -105,15 +105,23 @@ main .section .section-image .text-box .sub-text-2 {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.671);
   width: 100%;
-  max-width: 300px;
-  padding: 20px;
+  max-width: 450px;
+}
+
+.sub-text-3 div:first-of-type {
+  margin-top: 1rem;
+}
+.sub-text-3 div:last-of-type {
+  margin-bottom: 1rem;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  /* flex: auto; */
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
-.row > p {
+
+.row p {
   margin: 0;
 }
