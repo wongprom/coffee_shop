@@ -28,11 +28,11 @@ nav ul {
   padding: 20px 0;
   max-width: 500px;
 }
-main .hot {
+main .section {
   height: 100vh;
 }
 
-main .hot .hot-image {
+main .section .section-image {
   background-image: url(assets/hot.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ main .hot .hot-image {
   align-items: center;
 }
 
-main .hot .hot-image .text-box {
+main .section .section-image .text-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,18 +53,18 @@ main .hot .hot-image .text-box {
   max-width: 600px;
   gap: 1rem;
 }
-main .hot .hot-image .text-box .sub-text-1 {
+main .section .section-image .text-box .sub-text-1 {
   align-self: flex-start;
   background-color: red;
   padding: 0 10px;
 }
-main .hot .hot-image .text-box .sub-text-2 {
+main .section .section-image .text-box .sub-text-2 {
   align-self: flex-end;
   background-color: red;
   padding: 0 10px;
 }
 
-.drinks_prices_wrapper {
+.sub-text-3 {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -74,11 +74,11 @@ main .hot .hot-image .text-box .sub-text-2 {
   padding: 20px;
 }
 
-.drink_price {
+.row {
   display: flex;
   justify-content: space-between;
   /* flex: auto; */
 }
-.drink_price > p {
+.row > p {
   margin: 0;
 }
